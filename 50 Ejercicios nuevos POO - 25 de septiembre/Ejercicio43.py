@@ -20,5 +20,9 @@ class Almacen:
         print(f"Recibido {cantidad} de {producto}. Stock actual: {self.productos[producto]}")
 
 alm = Almacen()
-alm.recibir("Laptop", 10)
-alm.recibir("Laptop", 5)
+alm.recibir("Sofá", 10)
+alm.recibir("Sofá", 5)
+alm.recibir("Almohadas", 100)
+alm.recibir("Neveras", 25)
+alm.recibir("Almohadas", 100)
+alm.recibir("Neveras", 25)

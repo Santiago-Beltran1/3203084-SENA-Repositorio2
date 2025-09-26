@@ -20,7 +20,7 @@ class Cuenta:
     def saldo(self):
         return self._saldo
 
-c = Cuenta("1", "Ana", 500)
-c.depositar(200)
-c.retirar(100)
+c = Cuenta("1", "Lauren", 500)
+c.depositar(200000)
+c.retirar(10000)
 print("Saldo final:", c.saldo())

@@ -19,7 +19,7 @@ class Propuesta:
         self.monto = monto
         self.descripcion = descripcion
 
-f = Freelancer(1, "Carlos")
+f = Freelancer(1, "Xiomara")
 p = ProyectoFreel(1, "Diseño Web", "Empresa X")
 pr = Propuesta(f, 500, "Diseño completo")
 p.propuestas.append(pr)

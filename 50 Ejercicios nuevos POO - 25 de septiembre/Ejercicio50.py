@@ -22,6 +22,11 @@ class ObjetoVirtual:
         self.nombre = nombre
         self.propiedades = propiedades
 
-mundo = MundoVirtual("MetaversoX")
-av = Avatar(1, "Jugador1")
-mundo.agregar_avatar(av)
+mundo = MundoVirtual("Metaverso PC Santiago")
+av1 = Avatar(1, "Jugador1")
+av2 = Avatar(2, "Jugador2")
+av3 = Avatar(3, "Jugador3")
+
+mundo.agregar_avatar(av1)
+mundo.agregar_avatar(av2)
+mundo.agregar_avatar(av3)
