@@ -14,6 +14,7 @@ class Reloj:
         return f"{h:02d}:{m:02d}:{s:02d}"
 
 reloj = Reloj(23, 59, 50)
+print(f"15 segundos después de las {reloj.mostrar_24h()} serían:")
 for _ in range(15):
     reloj.avanzar(1)
     print(reloj.mostrar_24h())

@@ -24,9 +24,11 @@ class Bicicleta(Vehiculo):
         super().__init__(marca, "bicicleta")
         self.tipo = tipo
 
-carro = Carro("Toyota", "Corolla", 4)
+carro = Carro("Toyota", "Corolla", 4) 
 carro.encender()
 carro.apagar()
 
 bici = Bicicleta("Trek", "Montaña")
 bici.encender()
+
+print(f"{carro.marca}")

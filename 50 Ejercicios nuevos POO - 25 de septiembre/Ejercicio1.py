@@ -7,7 +7,8 @@ class Mascota:
         self.mascota_edad = mascota_edad
 
     def presentarse(self):
-        return f"Soy {self.mascota_nombre}, un(a) {self.especie}, tengo {self.mascota_edad} años"
+        print(f"nombre de la mascota: {self.mascota_nombre}, especie: {self.especie}, edad: {self.mascota_edad} años")
 
-m = Mascota("Luna", "gato", 3)
-print(m.presentarse())
+animal1 = Mascota("Lira", "loro", 3)
+animal2 = Mascota("Ragnarok", "caballo", 10)
+print(animal1.presentarse())

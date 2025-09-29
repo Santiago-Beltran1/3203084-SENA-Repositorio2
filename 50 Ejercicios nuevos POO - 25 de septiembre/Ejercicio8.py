@@ -18,3 +18,4 @@ class ProductoTienda:
 prod = ProductoTienda(101, "Camiseta", 50, 20)
 prod.aplicar_descuento(10)
 print("¿Hay stock de 5?", prod.hay_stock(5))
+print(f"El producto seleccionado fue el #{prod.codigo} de nombre {prod.nombre_prod} con valor de {prod.precio} y {prod.stock} unidades.")

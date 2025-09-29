@@ -4,18 +4,18 @@ class EstudianteNotas:
     def __init__(self, id_est, nombre_est):
         self.id_est = id_est
         self.nombre_est = nombre_est
-        self._notas = []
+        self.notas = []
 
     def agregar_nota(self, nota):
         if 0 <= nota <= 10:
-            self._notas.append(nota)
+            self.notas.append(nota)
             print(f"Nota {nota} agregada.")
         else:
             print("La nota debe estar entre 0 y 10.")
 
     def promedio(self):
-        if self._notas:
-            return sum(self._notas) / len(self._notas)
+        if self.notas:
+            return sum(self.notas) / len(self.notas)
         return 0
 
 est = EstudianteNotas(1, "Ana")
